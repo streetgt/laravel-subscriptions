@@ -1,3 +1,8 @@
+# Laravel Subscriptions using Braintree platform
+
+This is a skeleton project for integration with Laravel Subscriptions and Braintree platform
+
+
 # Laravel PHP Framework
 
 [![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
