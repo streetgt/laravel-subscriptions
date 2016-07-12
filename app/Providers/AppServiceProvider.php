@@ -20,7 +20,7 @@ class AppServiceProvider extends ServiceProvider
         Braintree_Configuration::publicKey(env('BRAINTREE_PUBLIC_KEY'));
         Braintree_Configuration::privateKey(env('BRAINTREE_PRIVATE_KEY'));
 
-        Cashier::useCurrency('gbp', '£');
+        Cashier::useCurrency('eur', '€');
     }
 
     /**
