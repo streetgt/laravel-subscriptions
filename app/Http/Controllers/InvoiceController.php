@@ -18,8 +18,8 @@ class InvoiceController extends Controller
     public function show($invoiceId, Request $request)
     {
         return $request->user()->downloadInvoice($invoiceId, [
-            'vendor' => 'Codecourse Ltd',
-            'product' => 'Some product',
+            'vendor' => 'Company Name here',
+            'product' => 'Some product here',
         ]);
     }
 }
